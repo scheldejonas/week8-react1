@@ -1,5 +1,7 @@
-<img align="right" src="../img/cphbusinessWhite.png" />  
-#React day 1  
+<img align="right" src="../img/cphbusinessWhite.png" />   
+
+#React day 1   
+
 ##SPA, Architecture, frameworks and libraries  
 
 
@@ -122,8 +124,8 @@ map()
 //or with arrow
 	cars.map(car=>'<tr><td>'+car.id+'</td><td>'+car.make+'</td><td>'+car.model+'</td></tr>');
 ```
-
-####Small exercise
+  
+####Small exercise  
 
 1. Create an array of person 10 objects like: `{id: 1, name: 'Elizabeth', age: 34}`
 2. use array filter function to get only persons above the age of 40.
@@ -131,8 +133,8 @@ map()
 4. change your filter() and map() functions to use arrow notation for the callback function.
 
 
-
-###Destructuring arrays and objects  
+  
+###Destructuring arrays and objects   
 `var [no1,,no3,no4,,] = ["First","Second","Third","Fourth","Fifth", "Sixth"];` //creates 3 variables containing the values on the equivilent places  
 `var myObject = {var1: 'some', var2: 'content', var3: 'here'}; `  
 `myFunction({var1, var2}){ console.log(var1+" "+var2)}`
