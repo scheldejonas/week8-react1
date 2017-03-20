@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script type="text/babel">
+        var imgarr = ["boat1.jpg", "boat2.jpg", "boat3.jpg", "boat4.jpg", "boat5.jpg"];
+        class Gallery extends React.Component{
+            constructor(){
+                super();
+                this.state = {
+                    imgarr,
+                    index : 0,
+                    img: imgarr[0]
+                };
+
+                this.changeImg = this.changeImg.bind(this);
+
+            }
+
+            changeImg(){
+                var index = this.state.index + 1;
+                if(index === this.state.imgarr.length)
+                    index = 0;
+                var img = this.state.imgarr[index];
+                this.setState({img: img, index: index});
+            }
+
+
+            render(){
+                return(
+                        <div>
+                            <h1>Trafic Light</h1>
+                            <h2>{this.props.name} is {this.state.status}</h2>
+                            <img src={this.state.img}/>
+                            <button onClick={this.changeImg}>Change image</button><span> </span>
+                        </div>
+                );
+            }
+
+        }
+        React.render(<Gallery name="Boats gallery"></Gallery>, document.getElementById("ho"));
+    </script>
+    <title>React day 1</title>
+</head>
+<body>
+<div id="ho"></div>
+
+</body>
+</html>
