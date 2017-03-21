@@ -1,23 +1,5 @@
 <img align="right" src="../img/cphbusinessWhite.png" />  
 #React day2 - create-react-app
-##Babel
-- Babel is a JavaScript transpiler.  
-
-- Babel has support for the latest version of JavaScript through syntax transformers. These plugins allow you to use new syntax, right now without waiting for browser support.
-
-- [Try it out in jsbin](https://jsbin.com/segovevafu/1/edit?html,js,console,output)
-
-- or like this:  (Use ES6 and JSX in normal script - transpilation will happen on every load. Meaning "Slow")
-
-  ```html
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-  <script type="text/babel">
-
-  ```
-
-
 ####Classes, imports and exports
 
 React Component module as a class: (basic template)
@@ -66,14 +48,11 @@ import currency from "../Currency";
 <td>{currency(car.price)}</td>
 ```
 
-#### Small exercise
+and stateless function component
 
-<img align="right" src="../img/hammer.jpg" /> 
-- Create a es6 class that can return the date and time on the click of a button
-- Export the module/class
-- Use the model in a script.js file and link to this file from an index.html file
-- Run the index file and test that it is working.
-
+```react
+const Ex2 = ()=> <h1>Hello from the stateless function component</h1>;
+```
 
 
 
@@ -102,17 +81,23 @@ What files can we see in the project folders?
 
 7. Open the App.js and make some changes
 8. Run the server to see the result 
-   Share examples of small components from the hackernews project [here](Ex1_simplecomponent.js)
-   Especially the file: C:\Users\tha\ReactProjects\hackernews\src\Ex1_simplecomponent.js
+   Share examples of small components from the hackernews project [here](../demo/day2/simplecomponent.js)
+   ​
 
 #### Exercise
 
 <img align="right" src="../img/hammer.jpg" /> 
 
 - Create new create-react-app
+
 - Create 3 files for 3 ES6 classes that are react components.
-  - First file is the containing component that renders the 2 others (use the **basic template** in this slide. The containing component also provides the state and the methods to change it.
-  -  2 more files can be stateless components
+  - First file is the containing component that renders the 2 others (use the **basic template** earlier in this slide. The containing component also provides the state and the methods to change it.
+  - 2 more files can be stateless components
     - first component provides an input field with an onChange attribute
-    - second component shows changes made in the input (by the user) and displays them in a div
-      - Hint: Let the onChange function in the subcomponent call a changeView function in the containing component. changeView() changes its state -> causing a rerender -> new prop value (from the state) will be re-rendered.
+    - second component (the view) shows changes made in the input (by the user) and displays them in a div.
+
+  ## Now do the tic tac toe tutorial [here](https://facebook.github.io/react/tutorial/tutorial.html)
+
+  And then do the daily exercise [here](../exercises/UsedCarsEx1.md)
+
+  and if you want more [here](day2ex.md)

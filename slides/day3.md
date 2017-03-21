@@ -4,12 +4,18 @@
 
 Here is an article with [10 usefull design patterns for working with React](https://hackernoon.com/10-react-mini-patterns-c1da92f068c5#.uvrnr03q1) 
 
-##State
+###React-router
+
+In the terminal write. (save option is to add it to the package.json file)
+
+```
+npm install --save react-router@3.0.0
+```
 
 
-##Props
 
 ###props.children 
+
 - This means all the content between begin and end-tag of component.
 - [See example here](https://facebook.github.io/react/docs/composition-vs-inheritance.html#containment)
 
