@@ -5,9 +5,9 @@ You can earn a maximum of **6** points for these exercises as     outlined below
 | Exercise                                 | Studypoints |
 | ---------------------------------------- | ----------- |
 | [Share data between components](UsedCarsEx2.md) | 1  point    |
-| [Routing with react](UsedCarsEx2.md)     | 1  point    |
-| [Backend with fetch](UsedCarsEx3-backend.md) | 1  point    |
-| [exam-preparation_React1](exam-preparation_React1.pdf) | 1  point    |
+| [Routing with react](UsedCarsEx3.md)     | 1  point    |
+| [Backend with fetch](UsedCarsEx4-backend.md) | 1  point    |
+| [exam-preparation_React1](RoutingWithParameters.md) | 1  point    |
 | Follow this tutorial and build the [tic-tac-toe](https://facebook.github.io/react/tutorial/tutorial.html) game in your own react project. | 2  point    |
 
 ​         '
