@@ -49,11 +49,27 @@ When we are making react apps and using EcmaScript6 features most browsers will 
 ![text](img/folderstructure.png)   
 
 6. Look particularly on App.js, index.js and index.html  
-
 7. Try changing the content inside App.js so that it says: Welcome to my new React application.
-
 8. From the commandline (inside the app) run: `npm start`  
-
 9. Go to a browser on: `http://localhost:3000` and see the app running here.  
-
 10. Checkout the [package.json file](https://github.com/facebookincubator/create-react-app/blob/master/package.json) to see how dependencies are managed in the project.  
+
+### Upload to github
+
+When uploading projects based on create-react-app then make sure to write in the .gitignore file:
+
+```
+##/node_modules/
+```
+
+This folder holds all the npm dependencies and should not be shared over github/dropbox or any other way.
+
+When we clone or download a project like that, we start the project by running:
+
+```
+npm install
+```
+
+from the console. 
+
+This will download all the dependencies to the project.
