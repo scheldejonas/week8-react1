@@ -4,7 +4,7 @@
 
 Here is an article with [10 usefull design patterns for working with React](https://hackernoon.com/10-react-mini-patterns-c1da92f068c5#.uvrnr03q1) 
 
-Here is a step by step tutorial on [react router](https://github.com/reactjs/react-router-tutorial/tree/master/lessons/01-setting-up).
+Here is a step by step tutorial on [react router](https://github.com/reactjs/react-router-tutorial/tree/master/lessons/01-setting-up). When using this tutorial do it in a new create-react-app instead of cloning the project from the tutorial. (The projects used in the tutorial are using webpack directly which is a bit harder to configure)
 
 ###React-router
 
