@@ -1,4 +1,4 @@
-#Week 8: React JS
+#Week 8: React JS  
 ###Readings
 
 [For those who like a (free) book](https://leanpub.com/the-road-to-learn-react)
