@@ -43,6 +43,12 @@ for(var i=101; i<=115; i++){
 console.log(JSON.stringify(db));
 ```
 
+This script is using `casual` to generate random data. Install it into the same folder.
+
+```
+npm install casual
+```
+
 In git bash run the js script like this
 
 ```assembly
