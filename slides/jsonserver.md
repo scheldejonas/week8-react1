@@ -56,10 +56,10 @@ Open the file to see the data format (or in the bash just `node mockdata.js` wit
 Now run the jsonserver with your new db:
 
 ```assembly
-json-server -p 4000 --watch Database.json
+json-server -p 4000 --watch booksdb.json
 ```
 
-open postman (or for get request use the browser) and open url: `http://localhost:3000`
+open postman (or for get request use the browser) and open url: `http://localhost:4000/books`
 
 
 
