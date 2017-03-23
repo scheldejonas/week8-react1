@@ -4,6 +4,6 @@
 
 ## Deployment with Mock backend
 
-[Quick start on deployment to surge](../deployment.md)
+[Quick start on deployment to surge](Deployment.md)
 
 [Backend Mock](jsonserver.md)
