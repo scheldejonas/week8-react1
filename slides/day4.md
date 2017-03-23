@@ -1,3 +1,9 @@
 <img align="right" src="../img/cphbusinessWhite.png" />  
 #React day4 - shared model
-##Using mobX to implement a shared model on the server.
+##Using data facade to implement a shared model
+
+## Deployment with Mock backend
+
+[Quick start on deployment to surge](../deployment.md)
+
+[Backend Mock](jsonserver.md)
