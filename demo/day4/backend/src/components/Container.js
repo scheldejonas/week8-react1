@@ -16,6 +16,7 @@ class Container extends Component{
         saveBook(){}
         bookToDelete(id){
             this.state.facade.deleteBook(id, () => {
+                this.props.facade.deleteBook(id);
                 this.setState({ facade: this.props.facade });
             });
         }
